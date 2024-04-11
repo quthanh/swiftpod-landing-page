@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>SWIFTPOD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="main-page">
+        <div class="flex items-center justify-center p-6 lg:p-8">
+            <a href="#">
+                <img src="./images/logo.png" alt="Swiftpod" />
+            </a>
+        </div>
+
+
+        <div class="section-banner bg-cover bg-center bg-no-repeat	">
+            <img src="./images/banner.jpg" class="opacity-0 hidden lg:block">
+
+            <img src="./images/banner-mobile.jpg" class="opacity-0 block lg:hidden">
+
+            <div class="hidden lg:flex flex-col absolute bottom-0 p-8 w-full left-1/2 -translate-x-1/2 items-center">
+                <div class="justify-center items-center pb-[40px]">
+                    <h2 class="font-gotham-black text-3xl lg:text-6xl max-w-[987px] text-center text-white">
+                        EMPOWER YOUR BRAND THROUGH PRINT-ON-DEMAND
+                    </h2>
+                </div>
+                <div class="flex justify-center">
+                    <div
+                        class="w-10 h-10 flex items-center justify-center border rounded-full border-white cursor-pointer">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 17L12 21M12 21L8 17M12 21L12 3" stroke="#F9FAFB" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block lg:hidden justify-center items-center bg-[#18181B] py-8 main-container">
+            <h2 class="font-gotham-black  text-3xl	lg:text-6xl max-w-[987px] text-center text-white">
+                EMPOWER YOUR BRAND THROUGH PRINT-ON-DEMAND
+            </h2>
+            <div class="py-12 flex justify-center">
+                <div
+                    class="w-10 h-10 flex items-center justify-center border rounded-full border-white  cursor-pointer">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 17L12 21M12 21L8 17M12 21L12 3" stroke="#F9FAFB" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bg-[#18181B] py-8 lg:py-[120px]">
+            <div class="main-container grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="max-w-[550px] flex flex-col gap-4 lg:gap-8">
+                    <h2 class="font-gotham-black text-2xl lg:text-5xl text-white">WHO IS SWIFTPOD?</h2>
+
+                    <div class="text-white opacity-80 text-sm lg:text-base">
+                        We are a team of print-on-demand, licensing and apparel specialists commited to a shared vision
+                        of delivering unparallelled quality, innovation and customer satisfaction, transforming ideas
+                        into tangible success stories.
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-8 w-full max-w-[650px] mx-auto text-center">
+                    <h2 class="font-gotham-black text-2xl lg:text-3xl text-white text-left">OUR MANAGEMENT</h2>
+
+                    <div class="space-y-3 lg:space-y-6">
+                        <div class="text-white flex flex-col gap-2 p-4 border border-custom w-full">
+                            <h3 class="font-gotham-black text-xl">FranK De La Cruz</h3>
+                            <div class="text-base opacity-80">
+                                Founder / CEO
+                            </div>
+                        </div>
+
+                        <div class="text-white flex flex-col gap-2 p-4 border border-custom w-full">
+                            <h3 class="font-gotham-black text-xl">Paul Nguyen</h3>
+                            <div class="text-base opacity-80">
+                                Founder / COO
+                            </div>
+                        </div>
+
+                        <div class="text-white flex flex-col gap-2 p-4 border border-custom w-full">
+                            <h3 class="font-gotham-black text-xl">Alexander Pawlicki</h3>
+                            <div class="text-base opacity-80">
+                                Art Director
+                            </div>
+                        </div>
+
+                        <div class="text-white flex flex-col gap-2 p-4 border border-custom w-full">
+                            <h3 class="font-gotham-black text-xl">Mercedes Escodebo</h3>
+                            <div class="text-base opacity-80">
+                                Director of Sales
+                            </div>
+                        </div>
+
+                        <div class="text-white flex flex-col gap-2 p-4 border border-custom w-full">
+                            <h3 class="font-gotham-black text-xl">Gary Schneider</h3>
+                            <div class="text-base opacity-80">
+                                Director of Business Development
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white py-8 lg:py-[120px]">
+            <div class="main-container grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="max-w-[550px] flex flex-col gap-8">
+                    <h2 class="font-gotham-black text-2xl	lg:text-5xl text-black">UNDERSTANDING POD PLATFORMS</h2>
+                </div>
+
+                <div class="flex flex-col gap-8 w-full max-w-[650px] mx-auto ">
+                    <div class="flex flex-col gap-6">
+                        <h3 class="text-base lg:text-xl text-black opacity-80">
+                            Print-On-Demand platforms service independent shops
+                            and vendors
+                        </h3>
+
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/printify.png" alt="printify" />
+                                </a>
+                            </div>
+
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/merchize.png" alt="merchize" />
+                                </a>
+                            </div>
+
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/gooten.png" alt="gooten" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-6">
+                        <h3 class="text-base lg:text-xl text-black opacity-80">
+                            These platforms enables SwiftPOD to reach merchants selling online through
+                        </h3>
+
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/shopify.png" alt="shopify" />
+                                </a>
+                            </div>
+
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/etsy.png" alt="etsy" />
+                                </a>
+                            </div>
+
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/ebay.png" alt="ebay.png" />
+                                </a>
+                            </div>
+
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/walmart.png" alt="walmart" />
+                                </a>
+                            </div>
+
+                            <div class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center">
+                                <a href="#">
+                                    <img src="./images/target.png" alt="target" />
+                                </a>
+                            </div>
+
+                            <div
+                                class="bg-[#F3F4F6] p-3 rounded-xl flex justify-center items-center text-[#A5A5A5] text-[22px]">
+                                and more...
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="section-art bg-cover bg-center bg-no-repeat">
+            <img src="./images/art.jpg" alt="art" class="opacity-0 hidden lg:block">
+
+            <img src="./images/art-mobile.jpg" alt="art" class="opacity-0 block lg:hidden">
+        </div>
+
+        <div
+            class="section-design relative bg-cover bg-center bg-no-repeat bg-[#18181B] py-8 lg:py-[120px] lg:min-h-[639px] lg:flex lg:items-center">
+            <div class="main-container">
+                <h2 class="font-gotham-black text-2xl lg:text-5xl text-white text-center mb-7 lg:mb-[60px]">ART & DESIGN
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="p-8 bg-[#242427] flex flex-col gap-4">
+                        <div class="">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M38.9995 15L36.0195 17.98L30.0195 11.98L32.9995 9.00001C33.8395 8.16001 34.9195 7.76001 35.9995 7.76001C37.0795 7.76001 38.1595 8.16001 38.9995 9.00001C40.6595 10.66 40.6595 13.34 38.9995 15Z"
+                                    fill="white" />
+                                <path
+                                    d="M34.6199 19.4L12.9999 41C11.3399 42.66 8.65988 42.66 6.99988 41C5.33988 39.34 5.33988 36.66 6.99988 35L28.6199 13.4L34.6199 19.4Z"
+                                    fill="white" />
+                                <path
+                                    d="M19.9 7L20.72 4.22C20.8 3.96 20.72 3.68 20.54 3.48C20.36 3.28 20.04 3.2 19.78 3.28L17 4.1L14.22 3.28C13.96 3.2 13.68 3.28 13.48 3.46C13.28 3.66 13.22 3.94 13.3 4.2L14.1 7L13.28 9.78C13.2 10.04 13.28 10.32 13.46 10.52C13.66 10.72 13.94 10.78 14.2 10.7L17 9.9L19.78 10.72C19.86 10.74 19.92 10.76 20 10.76C20.2 10.76 20.38 10.68 20.54 10.54C20.74 10.34 20.8 10.06 20.72 9.8L19.9 7Z"
+                                    fill="white" />
+                                <path
+                                    d="M11.9 19L12.72 16.22C12.8 15.96 12.72 15.68 12.54 15.48C12.34 15.28 12.06 15.22 11.8 15.3L9.00003 16.1L6.22003 15.28C5.96003 15.2 5.68003 15.28 5.48003 15.46C5.28003 15.66 5.22003 15.94 5.30003 16.2L6.10003 19L5.28003 21.78C5.20003 22.04 5.28003 22.32 5.46003 22.52C5.66003 22.72 5.94003 22.78 6.20003 22.7L8.98003 21.88L11.76 22.7C11.82 22.72 11.9 22.72 11.98 22.72C12.18 22.72 12.36 22.64 12.52 22.5C12.72 22.3 12.78 22.02 12.7 21.76L11.9 19Z"
+                                    fill="white" />
+                                <path
+                                    d="M41.9004 29L42.7204 26.22C42.8004 25.96 42.7204 25.68 42.5404 25.48C42.3404 25.28 42.0604 25.22 41.8004 25.3L39.0204 26.12L36.2404 25.3C35.9804 25.22 35.7004 25.3 35.5004 25.48C35.3004 25.68 35.2404 25.96 35.3204 26.22L36.1404 29L35.3204 31.78C35.2404 32.04 35.3204 32.32 35.5004 32.52C35.7004 32.72 35.9804 32.78 36.2404 32.7L39.0204 31.88L41.8004 32.7C41.8604 32.72 41.9404 32.72 42.0204 32.72C42.2204 32.72 42.4004 32.64 42.5604 32.5C42.7604 32.3 42.8204 32.02 42.7404 31.76L41.9004 29Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="text-base lg:text-xl text-white">
+                            All designs are composed by SwiftPOD’s in-house design team
+                        </div>
+                    </div>
+
+                    <div class="p-8 bg-[#242427] flex flex-col gap-4">
+                        <div class="">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.8">
+                                    <path
+                                        d="M39.0198 11.7L27.1398 4.84C25.1998 3.72 22.7998 3.72 20.8398 4.84L8.97984 11.7C7.03984 12.82 5.83984 14.9 5.83984 17.16V30.84C5.83984 33.08 7.03984 35.16 8.97984 36.3L20.8598 43.16C22.7998 44.28 25.1998 44.28 27.1598 43.16L39.0398 36.3C40.9798 35.18 42.1798 33.1 42.1798 30.84V17.16C42.1598 14.9 40.9598 12.84 39.0198 11.7ZM23.9998 14.68C26.5798 14.68 28.6598 16.76 28.6598 19.34C28.6598 21.92 26.5798 24 23.9998 24C21.4198 24 19.3398 21.92 19.3398 19.34C19.3398 16.78 21.4198 14.68 23.9998 14.68ZM29.3598 33.32H18.6398C17.0198 33.32 16.0798 31.52 16.9798 30.18C18.3398 28.16 20.9798 26.8 23.9998 26.8C27.0198 26.8 29.6598 28.16 31.0198 30.18C31.9198 31.5 30.9598 33.32 29.3598 33.32Z"
+                                        fill="white" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="text-base lg:text-xl text-white">
+                            Department led by Alexander Pawlicki, a soft goods industry veteran with 15 years of apparel
+                            design experience
+                        </div>
+                    </div>
+
+                    <div class="p-8 bg-[#242427] flex flex-col gap-4">
+                        <div class="">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.8">
+                                    <path
+                                        d="M42.5005 36.94L39.2005 37.72C38.4605 37.9 37.8805 38.46 37.7205 39.2L37.0205 42.14C36.6405 43.74 34.6005 44.24 33.5405 42.98L27.5605 36.1C27.0805 35.54 27.3405 34.66 28.0605 34.48C31.6005 33.62 34.7805 31.64 37.1205 28.82C37.5005 28.36 38.1805 28.3 38.6005 28.72L43.0405 33.16C44.5605 34.68 44.0205 36.58 42.5005 36.94Z"
+                                        fill="white" />
+                                    <path
+                                        d="M5.40033 36.94L8.70033 37.72C9.44033 37.9 10.0203 38.46 10.1803 39.2L10.8803 42.14C11.2603 43.74 13.3003 44.24 14.3603 42.98L20.3403 36.1C20.8203 35.54 20.5603 34.66 19.8403 34.48C16.3003 33.62 13.1203 31.64 10.7803 28.82C10.4003 28.36 9.72033 28.3 9.30033 28.72L4.86033 33.16C3.34033 34.68 3.88033 36.58 5.40033 36.94Z"
+                                        fill="white" />
+                                    <path
+                                        d="M24 4C16.26 4 10 10.26 10 18C10 20.9 10.86 23.56 12.34 25.78C14.5 28.98 17.92 31.24 21.9 31.82C22.58 31.94 23.28 32 24 32C24.72 32 25.42 31.94 26.1 31.82C30.08 31.24 33.5 28.98 35.66 25.78C37.14 23.56 38 20.9 38 18C38 10.26 31.74 4 24 4ZM30.12 17.56L28.46 19.22C28.18 19.5 28.02 20.04 28.12 20.44L28.6 22.5C28.98 24.12 28.12 24.76 26.68 23.9L24.68 22.72C24.32 22.5 23.72 22.5 23.36 22.72L21.36 23.9C19.92 24.74 19.06 24.12 19.44 22.5L19.92 20.44C20 20.06 19.86 19.5 19.58 19.22L17.88 17.56C16.9 16.58 17.22 15.6 18.58 15.38L20.72 15.02C21.08 14.96 21.5 14.64 21.66 14.32L22.84 11.96C23.48 10.68 24.52 10.68 25.16 11.96L26.34 14.32C26.5 14.64 26.92 14.96 27.3 15.02L29.44 15.38C30.78 15.6 31.1 16.58 30.12 17.56Z"
+                                        fill="white" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <div class="text-base lg:text-xl text-white">
+                            Unique, eye catching designs that capture the essence of any property or brand
+                        </div>
+                    </div>
+
+                    <div class="p-8 bg-[#242427] flex flex-col gap-4">
+                        <div class="">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.8">
+                                    <path
+                                        d="M32.38 4H15.62C8.34 4 4 8.34 4 15.62V32.36C4 39.66 8.34 44 15.62 44H32.36C39.64 44 43.98 39.66 43.98 32.38V15.62C44 8.34 39.66 4 32.38 4ZM15.26 36.3C15.26 37.12 14.58 37.8 13.76 37.8C12.94 37.8 12.26 37.12 12.26 36.3V32.16C12.26 31.34 12.94 30.66 13.76 30.66C14.58 30.66 15.26 31.34 15.26 32.16V36.3ZM25.5 36.3C25.5 37.12 24.82 37.8 24 37.8C23.18 37.8 22.5 37.12 22.5 36.3V28C22.5 27.18 23.18 26.5 24 26.5C24.82 26.5 25.5 27.18 25.5 28V36.3ZM35.74 36.3C35.74 37.12 35.06 37.8 34.24 37.8C33.42 37.8 32.74 37.12 32.74 36.3V23.86C32.74 23.04 33.42 22.36 34.24 22.36C35.06 22.36 35.74 23.04 35.74 23.86V36.3ZM35.74 17.54C35.74 18.36 35.06 19.04 34.24 19.04C33.42 19.04 32.74 18.36 32.74 17.54V15.6C27.64 20.84 21.26 24.54 14.12 26.32C14 26.36 13.88 26.36 13.76 26.36C13.08 26.36 12.48 25.9 12.3 25.22C12.1 24.42 12.58 23.6 13.4 23.4C20.14 21.72 26.14 18.18 30.9 13.18H28.4C27.58 13.18 26.9 12.5 26.9 11.68C26.9 10.86 27.58 10.18 28.4 10.18H34.26C34.34 10.18 34.4 10.22 34.48 10.22C34.58 10.24 34.68 10.24 34.78 10.28C34.88 10.32 34.96 10.38 35.06 10.44C35.12 10.48 35.18 10.5 35.24 10.54C35.26 10.56 35.26 10.58 35.28 10.58C35.36 10.66 35.42 10.74 35.48 10.82C35.54 10.9 35.6 10.96 35.62 11.04C35.66 11.12 35.66 11.2 35.68 11.3C35.7 11.4 35.74 11.5 35.74 11.62C35.74 11.64 35.76 11.66 35.76 11.68V17.54H35.74Z"
+                                        fill="white" />
+                                </g>
+                            </svg>
+
+
+                        </div>
+                        <div class="text-base lg:text-xl text-white">
+                            Our design team keeps up with the latest fashion trends, building them into our product
+                            lines
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-sale bg-[#242427]  bg-no-repeat bg-right-bottom">
+            <div class="flex flex-col lg:flex-row lg:gap-8 lg:items-center">
+                <div class="left bg-cover bg-center bg-no-repeat">
+                    <img src="./images/image1.jpg" alt="image" class="opacity-0" />
+                </div>
+                <div class="flex-1 flex flex-col gap-4 lg:gap-8 py-8 px-6 lg:px-0">
+                    <div>
+                        <h2 class="font-gotham-black  text-2xl	lg:text-5xl max-w-[362px]  text-white">
+                            SALES &
+                            DISTRIBUTION
+                        </h2>
+                    </div>
+                    <div class="flex flex-col gap-4 lg:gap-6 max-w-[574px]">
+                        <div class="text-base lg:text-xl text-white opacity-80">
+                            Our products are available via three major channels
+                        </div>
+
+                        <div class="flex flex-row gap-2 items-start">
+                            <div class="flex-[0_0_24px]  opacity-80 relative top-[2px]">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.5599 10.74L20.1999 9.16C19.9399 8.86 19.7299 8.3 19.7299 7.9V6.2C19.7299 5.14 18.8599 4.27 17.7999 4.27H16.0999C15.7099 4.27 15.1399 4.06 14.8399 3.8L13.2599 2.44C12.5699 1.85 11.4399 1.85 10.7399 2.44L9.16988 3.81C8.86988 4.06 8.29988 4.27 7.90988 4.27H6.17988C5.11988 4.27 4.24988 5.14 4.24988 6.2V7.91C4.24988 8.3 4.03988 8.86 3.78988 9.16L2.43988 10.75C1.85988 11.44 1.85988 12.56 2.43988 13.25L3.78988 14.84C4.03988 15.14 4.24988 15.7 4.24988 16.09V17.8C4.24988 18.86 5.11988 19.73 6.17988 19.73H7.90988C8.29988 19.73 8.86988 19.94 9.16988 20.2L10.7499 21.56C11.4399 22.15 12.5699 22.15 13.2699 21.56L14.8499 20.2C15.1499 19.94 15.7099 19.73 16.1099 19.73H17.8099C18.8699 19.73 19.7399 18.86 19.7399 17.8V16.1C19.7399 15.71 19.9499 15.14 20.2099 14.84L21.5699 13.26C22.1499 12.57 22.1499 11.43 21.5599 10.74ZM16.1599 10.11L11.3299 14.94C11.1899 15.08 10.9999 15.16 10.7999 15.16C10.5999 15.16 10.4099 15.08 10.2699 14.94L7.84988 12.52C7.55988 12.23 7.55988 11.75 7.84988 11.46C8.13988 11.17 8.61988 11.17 8.90988 11.46L10.7999 13.35L15.0999 9.05C15.3899 8.76 15.8699 8.76 16.1599 9.05C16.4499 9.34 16.4499 9.82 16.1599 10.11Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="flex-1 text-base lg:text-xl text-white opacity-80">
+                                Mass and Specialty Market via Wholesale distribution to brick and mortar and their
+                                online
+                                stores
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row gap-2 items-start">
+                            <div class="flex-[0_0_24px]  opacity-80 relative top-[2px]">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.5599 10.74L20.1999 9.16C19.9399 8.86 19.7299 8.3 19.7299 7.9V6.2C19.7299 5.14 18.8599 4.27 17.7999 4.27H16.0999C15.7099 4.27 15.1399 4.06 14.8399 3.8L13.2599 2.44C12.5699 1.85 11.4399 1.85 10.7399 2.44L9.16988 3.81C8.86988 4.06 8.29988 4.27 7.90988 4.27H6.17988C5.11988 4.27 4.24988 5.14 4.24988 6.2V7.91C4.24988 8.3 4.03988 8.86 3.78988 9.16L2.43988 10.75C1.85988 11.44 1.85988 12.56 2.43988 13.25L3.78988 14.84C4.03988 15.14 4.24988 15.7 4.24988 16.09V17.8C4.24988 18.86 5.11988 19.73 6.17988 19.73H7.90988C8.29988 19.73 8.86988 19.94 9.16988 20.2L10.7499 21.56C11.4399 22.15 12.5699 22.15 13.2699 21.56L14.8499 20.2C15.1499 19.94 15.7099 19.73 16.1099 19.73H17.8099C18.8699 19.73 19.7399 18.86 19.7399 17.8V16.1C19.7399 15.71 19.9499 15.14 20.2099 14.84L21.5699 13.26C22.1499 12.57 22.1499 11.43 21.5599 10.74ZM16.1599 10.11L11.3299 14.94C11.1899 15.08 10.9999 15.16 10.7999 15.16C10.5999 15.16 10.4099 15.08 10.2699 14.94L7.84988 12.52C7.55988 12.23 7.55988 11.75 7.84988 11.46C8.13988 11.17 8.61988 11.17 8.90988 11.46L10.7999 13.35L15.0999 9.05C15.3899 8.76 15.8699 8.76 16.1599 9.05C16.4499 9.34 16.4499 9.82 16.1599 10.11Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="flex-1 text-base lg:text-xl text-white opacity-80">
+                                Online Vendors via On-Demand Platforms
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row gap-2 items-start">
+                            <div class="flex-[0_0_24px]  opacity-80 relative top-[2px]">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.5599 10.74L20.1999 9.16C19.9399 8.86 19.7299 8.3 19.7299 7.9V6.2C19.7299 5.14 18.8599 4.27 17.7999 4.27H16.0999C15.7099 4.27 15.1399 4.06 14.8399 3.8L13.2599 2.44C12.5699 1.85 11.4399 1.85 10.7399 2.44L9.16988 3.81C8.86988 4.06 8.29988 4.27 7.90988 4.27H6.17988C5.11988 4.27 4.24988 5.14 4.24988 6.2V7.91C4.24988 8.3 4.03988 8.86 3.78988 9.16L2.43988 10.75C1.85988 11.44 1.85988 12.56 2.43988 13.25L3.78988 14.84C4.03988 15.14 4.24988 15.7 4.24988 16.09V17.8C4.24988 18.86 5.11988 19.73 6.17988 19.73H7.90988C8.29988 19.73 8.86988 19.94 9.16988 20.2L10.7499 21.56C11.4399 22.15 12.5699 22.15 13.2699 21.56L14.8499 20.2C15.1499 19.94 15.7099 19.73 16.1099 19.73H17.8099C18.8699 19.73 19.7399 18.86 19.7399 17.8V16.1C19.7399 15.71 19.9499 15.14 20.2099 14.84L21.5699 13.26C22.1499 12.57 22.1499 11.43 21.5599 10.74ZM16.1599 10.11L11.3299 14.94C11.1899 15.08 10.9999 15.16 10.7999 15.16C10.5999 15.16 10.4099 15.08 10.2699 14.94L7.84988 12.52C7.55988 12.23 7.55988 11.75 7.84988 11.46C8.13988 11.17 8.61988 11.17 8.90988 11.46L10.7999 13.35L15.0999 9.05C15.3899 8.76 15.8699 8.76 16.1599 9.05C16.4499 9.34 16.4499 9.82 16.1599 10.11Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="flex-1 text-base lg:text-xl text-white opacity-80">
+                                PrimePOD Platform which launches Spring 2024
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-primepod grid grid-cols-1 lg:grid-cols-3">
+            <div class="left  bg-cover bg-center bg-no-repeat">
+                <img src="./images/image2.jpg" alt="image" class="opacity-0">
+            </div>
+            <div class="center p-8 flex items-center">
+                <div class="flex flex-col gap-6 lg:gap-8">
+                    <div class="flex flex-col gap-1 lg:gap-2">
+                        <h2 class="font-gotham-black text-2xl	lg:text-5xl text-black">PRIMEPOD</h2>
+                        <div class="text-base text-black opacity-60">
+                            (coming soon in 2024)
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 text-black text-base lg:text-xl opacity-80">
+                        <div>
+                            PrimePOD is a revolutionary new idea by SwiftPOD. PrimePOD will be a one-stop-shop kind of
+                            platform where our users will have access to a truly massive catalog of designs available to
+                            lease and sell through some of the most popular ecommerce platforms.
+                        </div>
+                        <div>
+                            We want to partner with the best and most exciting brands around to offer PrimePOD exclusive
+                            designs of licensed apparel for our users to list and sell. And with SwiftPOD handling all
+                            of
+                            the order fulfillment, we have a winning combination of variety, quality and speed to help
+                            us
+                            dominate the world of Print-On-Demand apparel!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right  bg-cover bg-center bg-no-repeat">
+                <img src="./images/image3.jpg" alt="image" class="opacity-0">
+            </div>
+        </div>
+
+        <div
+            class="section-licensing relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-[#000000] after:bg-opacity-70 after:backdrop-blur-md after:hidden lg:after:block">
+            <div class="hidden  lg:block">
+                <div class=" grid grid-cols-4">
+                    <div class="bg-item bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image8.jpg');">
+                        <img src="./images/image8.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image9.jpg');">
+                        <img src="./images/image9.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image10.jpg');">
+                        <img src="./images/image10.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image11.jpg');">
+                        <img src="./images/image11.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image12.jpg');">
+                        <img src="./images/image12.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image13.jpg');">
+                        <img src="./images/image13.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image14.jpg');">
+                        <img src="./images/image14.jpg" alt="image" class="opacity-0">
+                    </div>
+                    <div class="bg-item  bg-cover bg-center bg-no-repeat"
+                        style="background-image: url('./images/image15.jpg');">
+                        <img src="./images/image15.jpg" alt="image" class="opacity-0">
+                    </div>
+                </div>
+            </div>
+            <div
+                class="lg:absolute lg:top-0 lg:top-1/2 lg:left-1/2 lg:w-full lg:-translate-x-1/2 lg:-translate-y-1/2 lg:z-[2] ">
+                <div class="main-container bg-[#18181B] lg:bg-transparent">
+                    <div class="p-0 p-8 px-0 lg:px-8 bg-[#18181B] lg:min-h-[500px] flex  items-center item bg-no-repeat bg-bottom"
+                        style="box-shadow: 0px 4px 10px 0px #00000033;
+                    ">
+                        <div class="flex flex-col gap-4 lg:gap-5">
+                            <h2 class="font-gotham-black text-2xl	lg:text-5xl text-white">LICENSING</h2>
+                            <div class="text-base lg:text-xl text-white opacity-80">
+                                Strategic partners for our products
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="block lg:hidden bg-[#18181B]">
+                    <img src="./images/licensing-bg-mobile.png" alt="licensing" />
+                </div>
+            </div>
+        </div>
+
+        <div class="section-print bg-[#18181B] py-8 lg:py-[120px]">
+            <div class="main-container space-y-10 lg:space-y-[120px] ">
+                <div class="flex flex-col gap-8 lg:gap-[120px] lg:flex-row">
+                    <div class="lg:w-[452px]">
+                        <div class="flex flex-col gap-6 lg:gap-8">
+                            <h2 class="font-gotham-black text-2xl	lg:text-5xl text-white">
+                                PRINTING &
+                                MANUFACTURING
+                            </h2>
+                            <div class="text-base lg:text-xl text-white opacity-80 flex flex-col gap-6">
+                                <div>
+                                    SwiftPOD uses the most advanced Direct-To-Garment printers in the industry to
+                                    fulfill
+                                    our
+                                    Print-On-Demand orders. Among the machines we proudly print with is the Brother
+                                    GTX600
+                                    boasting vibrant colors, crisp details and the highest quality in the industry.
+                                </div>
+                                <div>
+                                    We also do screen printing for fulfilling wholesale orders we sell to mass and
+                                    specialty
+                                    markets.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right flex-1 bg-cover bg-center bg-no-repeat">
+                        <img src="./images/image4.jpg" alt="image" class="opacity-0">
+                    </div>
+                </div>
+                <div class="border-t border-custom"></div>
+                <div class="space-y-8 lg:space-y-14">
+                    <div
+                        class="max-w-[650px] text-center mx-auto w-full flex justify-center items-center flex-col gap-4 lg:gap-8">
+                        <h2 class="font-gotham-black text-2xl lg:text-5xl text-white">PRODUCTS</h2>
+                        <div class="text-base lg:text-xl text-white opacity-80">
+                            At SwiftPOD, we offer a variety of product types for our vendors to use in their
+                            print-on-demand ventures including:
+                        </div>
+                    </div>
+                    <div>
+                        <div class="swiper swiper-catalog relative">
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/t-shirt.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            T-shirts
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/sleeve.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            Long Sleeve Tees
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/sweatshirts.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            Sweatshirts
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/hoodie.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            Hoodie
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/raglans.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            Raglans
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/tanktops.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            Tanktops
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/youth.png" alt="catalog" class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white  text-center">
+                                            Youth Sizes
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-custom p-3 lg:p-8 w-[133px] lg:w-[264px] h-[160px] lg:h-[296px] flex flex-col justify-center items-center gap-3 lg:gap-5">
+                                        <div class="max-h-[80px] lg:max-h-[160px] flex items-center">
+                                            <img src="./images/onsies.png" alt="catalog"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                        <div class="text-base lg:text-xl text-white text-center">
+                                            Onsies
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block w-full">
+                        <div
+                            class=" text-base lg:text-xl text-white opacity-80 max-w-[650px] text-center mx-auto w-full">
+                            We carry more thang 160 different style apparel
+                            blanks across all of the top apparel brands including:
+                        </div>
+
+                        <div class="mt-8">
+                            <div class="swiper swiper-partner relative">
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner1.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner2.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner3.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner4.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner5.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner6.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner7.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-custom py-3 px-6 h-[56px] lg:h-[100px] ">
+                                            <img src="./images/partner8.png" alt="partner"
+                                                class="max-w-full max-h-full" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-contact py-8 lg:py-[120px]">
+            <div class="main-container">
+                <div class="flex flex-col lg:flex-row lg:gap-8  bg-[#18181B]">
+                    <div class="flex-1 p-8 flex flex-col gap-8 justify-around">
+                        <div class="flex flex-col gap-5 max-w-[473px]">
+                            <h2 class="font-gotham-black text-2xl	lg:text-5xl text-white">CONTACT</h2>
+                            <div class="text-base lg:text-xl text-white opacity-80">
+                                For more information on how we can partner your brand or property, please reach out to
+                                us
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-6 lg:gap-8 lg:gap-[80px]">
+                            <div class="flex flex-col gap-4">
+                                <h3 class="font-gotham-black text-white text-2xl lg:text-3xl">WHOLESALE</h3>
+                                <div class="flex flex-col gap-2 text-white opacity-80">
+                                    <div>Mercedes Escodebo</div>
+                                    <div>Director of Sales</div>
+                                    <div>mercedes@swiftpod.com</div>
+                                </div>
+                            </div>
+                            <div class=" border-r border-white">
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <h3 class="font-gotham-black text-white text-2xl lg:text-3xl">WHOLESALE</h3>
+                                <div class="flex flex-col gap-2 text-white opacity-80">
+                                    <div>Mercedes Escodebo</div>
+                                    <div>Director of Sales</div>
+                                    <div>mercedes@swiftpod.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right bg-cover bg-center bg-no-repeat">
+                        <img src="./images/image5.jpg" alt="image" class="opacity-0">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="border-t border-[#DBDBDB] px-4 xs:px-6 p-6">
+            <div class="text-[12px] xs:text-base text-center text-black opacity-80">
+                Copyright © 2024 by SwiftPOD LLC. All rights reserved.
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
